@@ -1,0 +1,120 @@
+     input1    input2    input3
+0  0.412751  0.463949  0.483543
+1  0.378608  0.783372  0.283229
+2  0.701719  0.955567  0.579810
+3  0.313105  0.738120  0.612153
+4  0.167285  0.853274  0.263366
+
+    output1   output2   output3
+0  0.456589  0.679997  0.531311
+1  0.934841  0.814260  0.303194
+2  0.038311  0.841420  0.393285
+3  0.126386  0.114040  0.044257
+4  0.210880  0.792364  0.437226
+
+Epoch 1/50
+/usr/local/lib/python3.10/dist-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+32/32 ━━━━━━━━━━━━━━━━━━━━ 1s 10ms/step - loss: 0.3374
+Epoch 2/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - loss: 0.2374   
+Epoch 3/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.1549 
+Epoch 4/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.1133 
+Epoch 5/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.0946
+Epoch 6/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.0938
+Epoch 7/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0915 
+Epoch 8/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0910 
+Epoch 9/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0876 
+Epoch 10/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0874 
+Epoch 11/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0866 
+Epoch 12/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0861 
+Epoch 13/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0875 
+Epoch 14/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0840 
+Epoch 15/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0870 
+Epoch 16/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0845 
+Epoch 17/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0849 
+Epoch 18/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0839 
+Epoch 19/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.0831
+Epoch 20/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0844 
+Epoch 21/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0842 
+Epoch 22/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0871 
+Epoch 23/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0854 
+Epoch 24/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0858 
+Epoch 25/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0834 
+Epoch 26/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0834 
+Epoch 27/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0829 
+Epoch 28/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0833 
+Epoch 29/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0827 
+Epoch 30/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.0847
+Epoch 31/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.0856
+Epoch 32/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0838 
+Epoch 33/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0832 
+Epoch 34/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0823 
+Epoch 35/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0832 
+Epoch 36/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0837 
+Epoch 37/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0824 
+Epoch 38/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0845 
+Epoch 39/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.0830 
+Epoch 40/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.0861 
+Epoch 41/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.0853
+Epoch 42/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.0815
+Epoch 43/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.0844
+Epoch 44/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.0844
+Epoch 45/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0848 
+Epoch 46/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.0849
+Epoch 47/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0853 
+Epoch 48/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0850 
+Epoch 49/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0849 
+Epoch 50/50
+32/32 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.0828 
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 89ms/step
+
+New input: [[0.1 0.2 0.3]]
+Predicted output for new input: [[0.46886718 0.5527797  0.48569006]]
