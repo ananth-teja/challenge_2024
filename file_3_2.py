@@ -7,28 +7,28 @@ from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 
 data = {
     'CAP_ID': range(1000, 2000),
-    'Category': np.random.choice(['A', 'B'], size=1000),
+    'GLA_NO': np.random.choice(['A', 'B'], size=1000),
     'PD': np.random.uniform(0.1, 0.9, size=1000),
     'EAD': np.random.randint(500, 1000, size=1000)
 }
-
+ 
 df = pd.DataFrame(data)
 
-df['Category'] = df['Category'].apply(lambda x: 0 if x == 'A' else 1)
+df['GLA_NO'] = df['GLA_NO'].apply(lambda x: 0 if x == 'A' else 1)
 
-X = df[['PD', 'EAD', 'Category']]
-y_A = (df['Category'] == 0) * df['PD'] * df['EAD']
-y_B = (df['Category'] == 1) * df['PD'] * df['EAD']
+X = df[['PD', 'EAD', 'GLA_NO']]
+y_A = (df['GLA_NO'] == 0) * df['PD'] * df['EAD']
+y_B = (df['GLA_NO'] == 1) * df['PD'] * df['EAD']
 
 X_train, X_test, y_A_train, y_A_test = train_test_split(X, y_A, test_size=0.2, random_state=42)
 _, _, y_B_train, y_B_test = train_test_split(X, y_B, test_size=0.2, random_state=42)
 
-sum_A = (y_A_train['PD']*y_A_train['EAD']).sum()  
-sum_A = (y_B_train['PD']*y_B_train['EAD']).sum()  
+sum_A = (y_A_test).sum()  
+sum_B = (y_B_test).sum()  
 
 output = pd.DataFrame({
-    'Category': ['A', 'B'],
-    'Sum of Products': [sum_A, sum_B]
+    'GLA_NO': ['A', 'B'],
+    'SUM_B3A': [sum_A, sum_B]
 })
 
 print(output)
@@ -48,8 +48,8 @@ sum_A = y_A_pred_dt.sum()
 sum_B = y_B_pred_dt.sum()
 
 output = pd.DataFrame({
-    'Category': ['A', 'B'],
-    'Sum of Products': [sum_A, sum_B]
+    'GLA_NO': ['A', 'B'],
+    'SUM_B3A': [sum_A, sum_B]
 })
 
 print(output)
@@ -70,8 +70,8 @@ sum_A = y_A_pred_rf.sum()
 sum_B = y_B_pred_rf.sum()
 
 output = pd.DataFrame({
-    'Category': ['A', 'B'],
-    'Sum of Products': [sum_A, sum_B]
+    'GLA_NO': ['A', 'B'],
+    'SUM_B3A': [sum_A, sum_B]
 })
 
 print(output)
@@ -93,8 +93,8 @@ sum_A = y_A_pred_gb.sum()
 sum_B = y_B_pred_gb.sum()
 
 output = pd.DataFrame({
-    'Category': ['A', 'B'],
-    'Sum of Products': [sum_A, sum_B]
+    'GLA_NO': ['A', 'B'],
+    'SUM_B3A': [sum_A, sum_B]
 })
 
 print(output)
